@@ -100,28 +100,49 @@ else:
 pais = input("Ingrese el nombre del país en minúsculas: ").lower()
 
 match pais:
-    case "colombia":
-        print("Bogotá")
     case "argentina":
         print("Buenos Aires")
-    case "peru":
-        print("Lima")
-    case "chile":
-        print("Santiago")
-    case "mexico":
-        print("Ciudad de México")
+    case "bolivia":
+        print("Sucre")
     case "brasil":
         print("Brasilia")
+    case "chile":
+        print("Santiago")
+    case "colombia":
+        print("Bogotá")
+    case "costa rica":
+        print("San José")
+    case "cuba":
+        print("La Habana")
     case "ecuador":
         print("Quito")
+    case "el salvador":
+        print("San Salvador")
+    case "guatemala":
+        print("Ciudad de Guatemala")
+    case "haití":
+        print("Puerto Príncipe")
+    case "honduras":
+        print("Tegucigalpa")
+    case "méxico" | "mexico":
+        print("Ciudad de México")
+    case "nicaragua":
+        print("Managua")
+    case "panamá":
+        print("Ciudad de Panamá")
+    case "paraguay":
+        print("Asunción")
+    case "perú" | "peru":
+        print("Lima")
+    case "república dominicana":
+        print("Santo Domingo")
     case "uruguay":
         print("Montevideo")
-    case "canada":
-        print("Ottawa")
-    case "estados unidos":
-        print("Washington D.C.")
+    case "venezuela":
+        print("Caracas")
     case _:
         print("País no identificado")
+
 ```
 
 El reto se desarrolló en Google Colab.
