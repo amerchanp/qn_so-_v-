@@ -22,4 +22,5 @@ Resolver los siguientes problemas usando un notebook de python y subirlos a un r
 
 8. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado (Utilice match-case).
 
+El reto se desarrolló en Google Colab.
 #### Eso es todo, gracias.
